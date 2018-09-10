@@ -1,0 +1,42 @@
+h1 {
+  color: white;
+
+  font-size: 10vh;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.SearchBox {
+  width: 100%;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.SearchBox input {
+  width: 80%;
+  height: 35px;
+  border-radius: 25px;
+  border: 0px solid;
+  padding: 5px 5px 5px 25px;
+  margin-bottom: 35px;
+}
+
+.SearchBox h1 {
+  transform: translate(0%, -25%);
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  border: 0px;
+
+  background-color: #c0392b;
+  color: white;
+  font-size: 2vh;
+  border-radius: 5px;
+}
